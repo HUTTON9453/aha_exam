@@ -13,7 +13,5 @@ import { FrontendModule } from './frontend/frontend.module';
     }),
     FrontendModule,
   ],
-  controllers: [AppController],
-  providers: [AppService],
 })
 export class AppModule {}
